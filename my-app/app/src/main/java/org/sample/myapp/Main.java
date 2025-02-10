@@ -10,7 +10,7 @@ public class Main {
     }
 
     public void printAnswer() {
-        String output = Strings.concat(" The answer is    ", Numbers.add(19, 23));
+        String output = Strings.concat("The answer is", Numbers.add(19, 23));
         System.out.println(output);
     }
 }
